@@ -3,6 +3,11 @@ This documentation will help you to identify all available endpoints, all expect
 <br><br>
 The CandidatePortalAPI is a service available for our clients that want to use their own Career Portal integrated with their Keywork subscrition.
 
+# Development Environment
+The development environment is an available service for all clients to be used as a development API.
+- Url: https://candidateportalintegration-dev.azurewebsites.net/
+- Tenant (tenant-descriptor header): candidateportalopenapi
+
 # Creating a client
 You can create a client following all endpoints and contracts documentation, or simple using the NswagStudio with the provided configuration file.
 <br><br>
