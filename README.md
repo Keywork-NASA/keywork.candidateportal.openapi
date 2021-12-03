@@ -1,7 +1,7 @@
 # Keywork.CandidatePortal.Openapi
 This documentation will help you to identify all available endpoints, all expecting or returning contracts, as well as, creating a client for the CandidatePortal.API.
 <br><br>
-The CandidatePortalAPI is a service available for our clients that want to use their own Career Portal integrated with Keywork subscrition.
+The CandidatePortalAPI is a service available for our clients that want to use their own Career Portal integrated with their Keywork subscrition.
 
 # Creating a client
 You can create a client following all endpoints and contracts documentation, or simple using the NswagStudio with the provided configuration file.
