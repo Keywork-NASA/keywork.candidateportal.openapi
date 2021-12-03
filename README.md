@@ -7,10 +7,12 @@ The CandidatePortalAPI is a service available for our clients that want to use t
 The development environment is an available service for all clients to be used as a development API.
 - Url: https://candidateportalintegration-dev.azurewebsites.net/
 - Tenant (tenant-descriptor header): candidateportalopenapi
+- Example of requests using Postman -> [Postman Collections](https://github.com/Keywork-NASA/keywork.candidateportal.openapi/tree/master/Postman)
 
 # Creating a client
 You can create a client following all endpoints and contracts documentation, or simple using the NswagStudio with the provided configuration file.
 <br><br>
+Or you can use one of the existing clients -> [API Clients](https://github.com/Keywork-NASA/keywork.candidateportal.openapi/tree/master/ApiClients)
 
 ## Using NSwagStudio
 1. Follow instalation steps provided by [NswagStudio](https://github.com/RicoSuter/NSwag/wiki/NSwagStudio).
