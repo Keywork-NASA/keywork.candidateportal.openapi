@@ -11,7 +11,6 @@ The development environment is an available service for all clients to be used a
 
 # Creating a client
 You can create a client following all endpoints and contracts documentation, or simple using the NswagStudio with the provided configuration file.
-<br><br>
 Or you can use one of the existing clients -> [API Clients](https://github.com/Keywork-NASA/keywork.candidateportal.openapi/tree/master/ApiClients)
 
 ## Using NSwagStudio
