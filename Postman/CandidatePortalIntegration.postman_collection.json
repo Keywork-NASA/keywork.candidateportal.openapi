@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "eed5e919-8597-4850-a685-b775ad9e5523",
+		"_postman_id": "62d6cb88-ebbe-4b62-8c59-8e8607bc0434",
 		"name": "CandidatePortalIntegration",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -47,6 +47,28 @@
 								"api",
 								"configuration",
 								"countries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOffices",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://candidateportalintegration-dev.azurewebsites.net/api/configuration/offices",
+							"protocol": "https",
+							"host": [
+								"candidateportalintegration-dev",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"configuration",
+								"offices"
 							]
 						}
 					},

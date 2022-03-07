@@ -277,6 +277,7 @@ Every request, expects the header: tenant-descriptor. If it is not sent, a HTTP 
     "Name": "string",
     "Location": "string",
     "Area": "string",
+	"Profile": "string",
     "Specializations": [
       "string"
     ]
@@ -297,6 +298,7 @@ Every request, expects the header: tenant-descriptor. If it is not sent, a HTTP 
   "Name": "string",
   "Location": "string",
   "Area": "string",
+  "Profile": "string",
   "Specializations": [
     "string"
   ],
@@ -364,6 +366,19 @@ Every request, expects the header: tenant-descriptor. If it is not sent, a HTTP 
   {
     "Key": "string",    // Country Code
     "Value": "string"   // Country Name
+  }
+]
+```
+
+### GET: **/api/Configuration/offices**
+- Return all the configured offices
+- Returns: HTTP 200
+- Return Type
+```json
+[
+  {
+    "Id": "number",    // Office Id
+    "Description": "string"   // Office Name
   }
 ]
 ```
